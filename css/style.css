@@ -1,0 +1,73 @@
+/* common css start */
+body{
+	font-family: 'PT Sans', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #010101;
+}
+/* common css end */
+
+header{
+	background-color: #fcdb00;
+	padding: 20px 0;
+}
+
+.c_navbar{}
+.logo{}
+.menu{}
+.menu ul li a{
+	font-size: 22px;
+	font-weight: 700;
+	color: #010101 !important;
+	padding: 0 35px !important;
+}
+.menu ul li a:last-child{
+	padding-right: 0 !important;
+}
+.menu ul li a:hover{
+	color: #fff !important;
+}
+
+.slider{
+	padding-bottom: 100px;
+	background-color: #fcdb00;
+}
+
+.slider-icon{
+	font-size: 42px;
+}
+
+.carousel-indicators{
+	top: 110% !important;
+}
+.carousel-indicators [data-bs-target] {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    
+}
+
+.slider-text{
+	padding: 50px 0;
+}
+
+.slider-text h1{
+	font-size: 32px;
+	font-weight: 700;
+}
+
+.slider-text h2{
+	font-size: 20px;
+	color: #313841;
+	margin-top: 20px;
+}
+
+.slider-text p{
+	font-size: 16px;
+	color: #555555;
+	line-height: 1.25;
+	margin-top: 25px;
+}
+.slider-icon{
+	margin-top: 40px;
+}
